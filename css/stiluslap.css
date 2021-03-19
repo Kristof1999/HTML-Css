@@ -1,0 +1,126 @@
+/*kepek*/
+#saman{
+    background-image: url('shaman.jpg');
+    background-size: cover;
+    opacity: 80%;
+}
+
+.szoveg{
+    color: gold;
+}
+
+.stephen_king{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+#hogyan_irjunk_kep{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+#dickens{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+#vonnegut{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+#hemingway{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+/*menu*/
+ul.breadcrumb{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+/*szoveg*/
+#idezet{
+    font-size: 200%;
+}
+
+p{
+    text-align: justify;
+    font-size:120%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tablazat_szoveg{
+    font-size: 120%;
+    color: white;
+    text-align: center;
+}
+
+/*űrlap*/
+
+form{margin-top: 10px;}
+
+#hirlevel{
+    margin-top: 10px;
+}
+
+#submit{
+    margin-top: 10px;
+}
+
+#reset{
+    margin-top: 10px;
+}
+
+/*egyéb: táblázat, link, háttérszín, videó*/
+
+a:visited{
+    color: #6D0099;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+table caption{
+    caption-side: top;
+    text-align: center;
+}
+
+.akadalymentesit{
+    position: absolute;
+    left: -9999px;
+}
+
+a:focus{position: static;}

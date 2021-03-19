@@ -1,0 +1,69 @@
+@media print{
+    .nyomtato{display: none;}
+    header{display:none;}
+    aside{display: none;}
+    footer{display: none;}
+    form{display: none;}
+    a{display: none;}
+
+    .stephen_king{
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    #hogyan_irjunk_kep{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    #dickens{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    #vonnegut{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    #hemingway{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    #saman{
+        background-image: url('shaman.jpg');
+        background-size: cover;
+    }
+
+    #waterfall{
+        background-image: url('waterfall.jpg');
+        background-size: cover;
+    }
+
+    #idezet{
+        font-size: 200%;
+    }
+    
+    p{
+        text-align: justify;
+        font-size:120%;
+        font-family: 'Roboto Slab', serif;
+        page-break-inside: avoid;
+    }
+
+    .tablazat_szoveg{
+        font-size: 120%;
+        color: white; 
+    }
+
+    table caption{
+        caption-side: top;
+        text-align: center;
+    }
+}
